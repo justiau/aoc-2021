@@ -1,5 +1,5 @@
 def part1():
-    with open("input.txt") as f:
+    with open("data.txt") as f:
         num = None
         count = 0
         for line in f:
@@ -15,7 +15,7 @@ def part1():
     print(count)
 
 def part2():
-    with open("input.txt") as f:
+    with open("data.txt") as f:
         window = []
         count = 0
         for line in f:

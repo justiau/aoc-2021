@@ -1,7 +1,7 @@
 def part1():
     x = 0
     y = 0
-    with open("input.txt") as f:
+    with open("data.txt") as f:
         for line in f:
             line = line.strip()
             if line:
@@ -19,7 +19,7 @@ def part2():
     x = 0
     y = 0
     aim = 0
-    with open("input.txt") as f:
+    with open("data.txt") as f:
         for line in f:
             line = line.strip()
             if line:
